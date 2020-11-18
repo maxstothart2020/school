@@ -11,12 +11,12 @@
 <script>
 function login() {
   var txt;
-  var username = prompt("Please enter your username:");
-  var password = prompt("please enter your password:")
+  var uname = prompt("Please enter your username:");
+  var pword = prompt("please enter your password:")
   if (username == null || username == "") {
     txt = "User cancelled the prompt.";
   } else {
-    txt = "Hello " + person + "! How are you today?";
+    txt = "Hello " + uname + "! How are you today?";
   }
   document.getElementById("demo").innerHTML = txt;
 }
