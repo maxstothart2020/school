@@ -5,7 +5,6 @@
 </head>
 <body onload="login()">
   <h1 id="demo"></h1>
-  <button onclick= "notifyall()">click to go to next page</button>
   <script>
     function login() {
       var txt;
@@ -13,10 +12,17 @@
       var pwd = prompt("please enter your password:")
       if (uname == null || uname == "") {
         txt = "User cancelled the prompt.";}
-      else if (uname == "Maxs" && pwd == "Me") {
+      else if (uname == "Max" && pwd == "Memory allways prospers") {
         txt = "Welcome " + uname;
-        wait()
         window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/max.htm';}
+      
+      else if (uname == "jadon" && pwd == "Iamamazing") {
+        txt = "Welcome " + uname;
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/jadon.htm';}
+     
+      else if (uname == "luke" && pwd == "wheelie") {
+        txt = "Welcome " + uname;
+        window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/luke.htm';}
       else
         txt = "Sorry " + uname + " It Appears You Have The Wrong Username Or Password"
       document.getElementById("demo").innerHTML = txt;}
