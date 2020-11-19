@@ -11,7 +11,8 @@
     var pwd = prompt("please enter your password:")
     if (uname == null || uname == "") {
     txt = "User cancelled the prompt.";}
-    document.getElementById("demo").innerHTML = txt;}
+    else if (uname == "Maxs" && pwd == "Me")
+      document.getElementById("demo").innerHTML = txt;}
 </script>
 
 </body>
