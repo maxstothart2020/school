@@ -7,17 +7,19 @@
   <alert id="demo"></alert>
   <script>
     function login() {
-    var txt;
-    var uname = prompt("Please enter your username:");
-    var pwd = prompt("please enter your password:")
-    if (uname == null || uname == "") {
-       txt = "User cancelled the prompt.";}
-    else if (uname == "Maxs" && pwd == "Me") {
-       txt = "hi max";
-       window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/max.htm';}
-    else
-      txt = "wrong login"
+      var txt;
+      var uname = prompt("Please enter your username:");
+      var pwd = prompt("please enter your password:")
+      if (uname == null || uname == "") {
+        txt = "User cancelled the prompt.";}
+      else if (uname == "Maxs" && pwd == "Me") {
+        txt = "hi max";}
+        setTimeout(goto, 3000)
+      else
+        txt = "wrong login"
       document.getElementById("demo").innerHTML = txt;}
+    function goto()
+      window.location.href = 'https://maxstothart2020.github.io/secret-fence/css/font/kill/q/w/e/r/t/y/u/i/o/p/a/s/d/f/g/h/j/k/l/z/x/c/v/b/n/m/max.htm';}
 </script>
 
 </body>
