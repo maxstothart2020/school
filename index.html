@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Login</title>
+</head>
 <body>
 
-<h2>MyPage login</h2>
+  <h2>MyPage login</h2>
 
-<button onclick="login()">Login</button>
+  <button onclick="login()">Login</button>
 
-<p id="demo"></p>
+  <p id="demo"></p>
 
-<script>
-function login() {
-  var txt;
-  var uname = prompt("Please enter your username:");
-  var pword = prompt("please enter your password:")
-  if (uname == null || uname == "") {
-    txt = "User cancelled the prompt.";
-document.getElementById("demo").innerHTML = txt;
+  <script>
+    function login() {
+    var txt;
+    var uname = prompt("Please enter your username:");
+    var pword = prompt("please enter your password:")
+    if (uname == null || uname == "") {
+    txt = "User cancelled the prompt.";}
+    document.getElementById("demo").innerHTML = txt;}
 </script>
 
 </body>
